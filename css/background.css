@@ -1,68 +1,12 @@
-/* 背景渐变色 */
-#web_bg {
-  background: -webkit-linear-gradient(
-    0deg,
-    rgba(247, 149, 51, 0.1) 0,
-    rgba(243, 112, 85, 0.1) 15%,
-    rgba(239, 78, 123, 0.1) 30%,
-    rgba(161, 102, 171, 0.1) 44%,
-    rgba(80, 115, 184, 0.1) 58%,
-    rgba(16, 152, 173, 0.1) 72%,
-    rgba(7, 179, 155, 0.1) 86%,
-    rgba(109, 186, 130, 0.1) 100%
-  );
-  background: -moz-linear-gradient(
-    0deg,
-    rgba(247, 149, 51, 0.1) 0,
-    rgba(243, 112, 85, 0.1) 15%,
-    rgba(239, 78, 123, 0.1) 30%,
-    rgba(161, 102, 171, 0.1) 44%,
-    rgba(80, 115, 184, 0.1) 58%,
-    rgba(16, 152, 173, 0.1) 72%,
-    rgba(7, 179, 155, 0.1) 86%,
-    rgba(109, 186, 130, 0.1) 100%
-  );
-  background: -o-linear-gradient(
-    0deg,
-    rgba(247, 149, 51, 0.1) 0,
-    rgba(243, 112, 85, 0.1) 15%,
-    rgba(239, 78, 123, 0.1) 30%,
-    rgba(161, 102, 171, 0.1) 44%,
-    rgba(80, 115, 184, 0.1) 58%,
-    rgba(16, 152, 173, 0.1) 72%,
-    rgba(7, 179, 155, 0.1) 86%,
-    rgba(109, 186, 130, 0.1) 100%
-  );
-  background: -ms-linear-gradient(
-    0deg,
-    rgba(247, 149, 51, 0.1) 0,
-    rgba(243, 112, 85, 0.1) 15%,
-    rgba(239, 78, 123, 0.1) 30%,
-    rgba(161, 102, 171, 0.1) 44%,
-    rgba(80, 115, 184, 0.1) 58%,
-    rgba(16, 152, 173, 0.1) 72%,
-    rgba(7, 179, 155, 0.1) 86%,
-    rgba(109, 186, 130, 0.1) 100%
-  );
-  background: linear-gradient(
-    90deg,
-    rgba(247, 149, 51, 0.1) 0,
-    rgba(243, 112, 85, 0.1) 15%,
-    rgba(239, 78, 123, 0.1) 30%,
-    rgba(161, 102, 171, 0.1) 44%,
-    rgba(80, 115, 184, 0.1) 58%,
-    rgba(16, 152, 173, 0.1) 72%,
-    rgba(7, 179, 155, 0.1) 86%,
-    rgba(109, 186, 130, 0.1) 100%
-  );
-} 
 
 
-/* 文章页背景 */
-/* 以下代表白色透明度为0.3 */
+/* 文章页背景以及暗色主题，透明度为0.9 */
 .layout > div:first-child:not(.recent-posts) {
-  /* background: rgba(255, 255, 255, 0.3); */
-  background: var(--light_bg_color);
+   background: rgba(255, 255, 255, 0.8);
+  /*background: var(--light_bg_color);*/
+}
+[data-theme=dark] .layout > div:first-child:not(.recent-posts) {
+    background: rgba(0, 0, 0, 0.4);
 }
 
 /* 所有背景（包括首页卡片、文章页、页面页等） */
@@ -71,31 +15,23 @@
 .layout_post > #page,
 .layout_post > #post,
 .read-mode .layout_post > #post {
-  /* background: rgba(255, 255, 255, 0.3); */
-  background: var(--light_bg_color);
+  /*background: var(--light_bg_color);*/
+  background: rgba(255, 255, 255, 0.8);
 }
 [data-theme=dark] #recent-posts>.recent-post-item,
 [data-theme=dark] .layout>div:first-child:not(.recent-posts),
 [data-theme=dark] .layout_post>#page,
 [data-theme=dark] .layout_post>#post,
 [data-theme=dark] .read-mode .layout_post>#post {
-  background: var(--dark_page_color)
+  /*background: var(--dark_page_color);*/
+    background: rgba(0, 0, 0, 0.4);
 }
 
 #aside-content .card-widget {
-  background: var(--light_bg_color);
+  /*background: var(--light_bg_color);*/
+    background: rgba(255, 255, 255, 0.8);
 }
 [data-theme=dark] #aside-content .card-widget {
-  background: var(--dark_bg_color)
+  /*background: var(--dark_bg_color)*/
+    background: rgba(0, 0, 0, 0.4);
 }
-
-
-/* 背景图片设置 */
-/* #web_bg { */
-  /* 背景图像的地址（url括号里）  */
-  /* background: url("/img/R.jpg"); */
-  /* 背景图像不重复 */
-  /* background-repeat: no-repeat; */
-  /* 背景图像大小 */
-  /* background-size: cover; */
-/* } */
