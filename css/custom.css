@@ -19,6 +19,10 @@
   width: 100%;
   margin: auto;
 }
+/* --------------------文章上下页圆角样式-------------------- */
+.pagination-post {
+  border-radius: 8px;
+}
 /* --------------------一图化背景-------------------- */
 /* 头图透明 */
 #page-header{
@@ -26,9 +30,9 @@
 }
 
 /*头图黑色透明玻璃效果移除 */
-#page-header.post-bg:before {
-  background-color: transparent!important;
-}
+/*#page-header.post-bg:before {*/
+/*  background-color: transparent!important;*/
+/*}*/
 
 /*伪类遮罩层透明*/
 #page-header::before{
@@ -38,6 +42,15 @@
 #footer{
   background: transparent!important;
   /*background: rgba(255, 255, 255, 0.8);*/
+}
+/* 夜间模式伪类遮罩层透明 */
+[data-theme="dark"]
+#footer::before{
+  background: transparent!important;
+}
+[data-theme="dark"]
+#page-header::before{
+  background: transparent!important;
 }
 /* --------------------文章目录虚拟化-------------------- */
 /* 文章目录 */
@@ -101,5 +114,20 @@
   top: -1.9rem; /*C位置*/
   color: #49b1f540; /*C颜色*/
   font-size: 6rem; /*C大小*/
+}
+/* --------------------选中文字颜色调整-------------------- */
+*::selection {
+  background: rgba(90,135,255);
+  color: #ffffff;
+}
+/* --------------------aplayer播放器样式-------------------- */
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+  left: -66px !important;
+  /* 默认情况下缩进左侧66px，只留一点箭头部分 */
+}
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+  left: 0 !important;
+  /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
 }
 
