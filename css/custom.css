@@ -115,11 +115,6 @@
   color: #49b1f540; /*C颜色*/
   font-size: 6rem; /*C大小*/
 }
-/* --------------------选中文字颜色调整-------------------- */
-*::selection {
-  background: rgba(90,135,255);
-  color: #ffffff;
-}
 /* --------------------aplayer播放器样式-------------------- */
 .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
   /* 默认情况下缩进左侧66px，只留一点箭头部分 */
