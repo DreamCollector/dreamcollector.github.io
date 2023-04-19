@@ -97,7 +97,6 @@ window.addEventListener('load', () => {
     container: '#algolia-search-input',
     showReset: false,
     showSubmit: true, // 设为true 可以通过按钮搜索
-    searchAsYouType: false, // 新增 可以实现回车或点击按钮搜索，不会每次输入都搜索
     placeholder: GLOBAL_CONFIG.algolia.languages.input_placeholder,
     showLoadingIndicator: true
   })

@@ -255,6 +255,11 @@ li.card-archive-list-item {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+/* --------------------标签页新增计数样式-------------------- */
+.tag-cloud-list a sup {
+  opacity: 0.6;
+  margin-left: 2px;
+}
 
 
 
