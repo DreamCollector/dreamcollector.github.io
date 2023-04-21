@@ -275,7 +275,7 @@ li.card-archive-list-item {
 }
 
 .el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(2):before {
-  content: '收到回复将会发送到您的邮箱💌(待开通)';
+  content: '收到回复将会发送到您的邮箱💌';
 }
 
 .el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(3):before {
