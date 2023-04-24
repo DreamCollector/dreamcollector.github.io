@@ -60,14 +60,21 @@
 #aside-content #card-toc .toc-content .toc-link.active {
   line-height: 1.2;
   border-radius: 12px;
-  border-left-color: var(--heo-hovertext);
-  background-color: var(--heo-card-bg);
-  color: var(--heo-lighttext);
+  color: black;
+  background: transparent;
+  font-weight: bold;
+  font-size: 20px;
+}
+[data-theme=dark] #aside-content #card-toc .toc-content .toc-link.active {
+  line-height: 1.2;
+  border-radius: 12px;
+  color: #49b1f5;
+  background: transparent;
   font-weight: bold;
   font-size: 20px;
 }
 [data-theme=dark].toc .toc-item.active .toc-link .toc-text {
-  color: var(--heo-white);
+  color: white;
 }
 #aside-content #card-toc .toc-content .toc-item.active .toc-link {
   opacity: 1;
@@ -78,7 +85,6 @@
   padding: 8px;
   border-left: 0px solid transparent;
   border-radius: 12px;
-  color: var(--heo-secondtext);
   cursor: default;
 }
 #aside-content #card-toc .toc-content .toc-link:not(.active) span {
@@ -91,9 +97,9 @@
   filter: blur(0px);
   opacity: 1;
 }
-#aside-content #card-toc .toc-content .toc-link:not(.active) span:hover {
-  color: var(--heo-lighttext);
-}
+/*#aside-content #card-toc .toc-content .toc-link:not(.active) span:hover {*/
+/*  color: var(--heo-lighttext);*/
+/*}*/
 
 /* --------------------版权卡片调整-------------------- */
 /*版权卡片*/
@@ -101,7 +107,7 @@
   position: relative;
   margin: 2rem 0 0.5rem;
   padding: 1.5rem 0.8rem;
-  border: 8px solid var(--HiPeach-copyright-border); /*卡片边框*/
+  border: 0px solid #eee; /*卡片边框*/
   border-radius: 20px; /*边框圆角*/
 
   /*默认就是hover的样式*/
@@ -133,7 +139,7 @@
   -o-border-radius: 2px 0 0 2px;
 }
 .aplayer.aplayer-fixed .aplayer-info {
-  border: 0;
+  border: none !important;
 }
 .aplayer.aplayer-fixed {
    background-color: transparent!important;
@@ -183,8 +189,6 @@
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  border: 1px solid var(--lyx-border)!important;
-  box-shadow: var(--heo-shadow-border);
   width: 330px !important;
 }
 /* --------------------侧边栏归档样式-------------------- */
