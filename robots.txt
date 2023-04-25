@@ -1,0 +1,10 @@
+
+User-agent: *
+Allow: /
+Allow: /archives/
+
+Disallow: /js/
+Disallow: /css/
+
+Sitemap: http://blog.pzai.cloud/sitemap.xml
+Sitemap: http://blog.pzai.cloud/baidusitemap.xml
