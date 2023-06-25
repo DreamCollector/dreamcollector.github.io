@@ -19,6 +19,10 @@
   width: 100%;
   margin: auto;
 }
+#pagination .page-number.current {
+  background: #49B1F5!important;
+  color: var(--white);
+}
 /* --------------------文章上下页圆角样式-------------------- */
 .pagination-post {
   border-radius: 8px;

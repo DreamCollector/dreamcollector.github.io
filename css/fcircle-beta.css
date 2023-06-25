@@ -71,7 +71,7 @@ Last Modified time : 20220211 98:00 by https://immmmm.com
 #cf-more i.fas:hover{color:var(--lmm-hover);}
 #cf-state,#cf-more {background:var(--lmm-background);color:var(--lmm-fontcolor);}
 #cf-change,.cf-time-updated,.cf-time-created,.cf-article-floor{color:var(--lmm-floorcolor);}
-.cf-article-author,.cf-article a.cf-article-title,.cf-article:hover .cf-article-floor,.cf-article:hover .cf-time-created,.cf-article:hover .cf-time-updated{color:var(--lmm-fontcolor);}
+.cf-article-author,.cf-article a.cf-article-title,.cf-article:hover .cf-article-floor,.cf-article:hover .cf-time-created,.cf-article:hover .cf-time-updated{color:#99a9bf!important;}
 .cf-article {background:var(--lmm-background);}
 #cf-change span:hover{color:var(--lmm-hover);cursor:pointer;}
 #cf-change .cf-change-now{color:var(--lmm-hover);font-weight:800;}
