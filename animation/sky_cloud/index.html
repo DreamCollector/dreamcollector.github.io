@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>天空之云</title>
+    <style type="text/css">
+
+        body {
+            background-color: #326696;
+            margin: 0px;
+            overflow: hidden;
+            font-family: Monospace;
+            font-size: 13px;
+            text-align: center;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        a {
+            color: #0078ff;
+        }
+
+    </style>
+</head>
+<body style="background: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAOpCAYAAAB7LSV5AAAAAXNSR0IArs4c6QAADSFJREFUeF7tnfmXFcUVx+v+I7iyKQy77LhAzlETEyIKRAQBRUGJioIzCAIDiKwajUQgrnFNTEg0+f9eTm291Ot6c+RV17fO4Tu/PGru8Lr6c5e6t6q6S2Y9OjlQwB9pdUBEqUGjPxna7Q4ASMisx6YGopTS99389H0Jf+/bqeTlEIjRD+84/Ltx5TLr0amBYd9Qgb+IUUnjCl5FKeVyx2NTYDdsdKDzDhvM+5C3CVR+7y4VjQPp5HgV3PH4UawNwI0QTwCugsePmrEgjO0+NA1UFafMr9qRT9S4cilCBeLHQRE1GAyUeP/37R7lIwmEkS8ciFLI5c5fvw2OAw0v0KrwRmWNzbbr0S+9HE8AroJ2BwKzCkfDKmt0SkkgL0QFDb83OVjGdgEEfnOssy6I1QOpf+8IhClWvrbc6QjA6gLdgVae33MW3Iz7mrPcZTqQD3ld6VhvMyrAE8jo92GccSoATAz4aH7XE8ex+QDcCPEE4Cp44vhgKCsOs+Ae21KECobqgLAu6LGNJ3D3b98BxwHjBXYw0qrwpVnzs0+5wAkU0oEgHwhHxzBfSCgvRAXmjvxcra8L8rQDAn3MhYZZYLstd//uBLYuMF6ATMk8AVhdoDsAzYrv0R1Aq6AQAsGyWTQuhH8Xxo1fJhejgtaCXeoCfPT3yT2bT2LzAbgR4gnAVbD55KA7K7bW3Dl73hg9x5UXYISbTw30Dfl8wE8T5mo7Al0L+Hnigdz7+1PgOKC9wBmVHZN8feBnbOtQ24ccTwCuAtMBZFZcAIFpuzSax+uGruOMMNKDcEND2NMEcrn3yWlsXTBshL8spaqnXm8tpasIwOoCrQJoVjz7ydNgLyiGQPcWinDLRPK2zDYEgEs2s7ecxuYDcCPEE4CrYMsZbFZcgAocARcHqrogU1ssAWAcmPPUGXAc2HKmGoxic1U9zlUraRMATNXCVTDnqbPYfKAcAqCk0Blhc3N5x4JFa/N5WrnMefosti7AG6EhEC8O7QbH/uRGBdC6YO7T74LjAJzA1nexo6Fxw9YUTbvKradiu6vfceUyF00gaoRhqRZO4SSSOwK4SaICVLD1nK0LMmXBYdZdAIFt50Y8YZF8OiB4QkMpmbv1HDYUz9t2DhsJKwIjdmz0mBApsQSAcQCugnnb3hv1IFHvbuBUgMuJZN7297BeUKkAtWChCdQ+0P0YT59yGTLCsERrP902XMCNKTc20Mz7wzqg73bLCPNPTygl87efb8cBhArCZ8lytmX+H86D48D2862p2nABM9zQkFruCABHQ7gKbAeKJZDiqdJRNi5K5j9zAZsV41WAJ3ABWxfc98wFsBeYDtifmDP2KZeaAGbx2HUAmBXft+MidjSEG2EBBC6C48COiyYr9tlv7k/Bq2DHpfho6F5RFX1LRwK5I+CetKreuJCvLfc/ewkcB0wgynfH9p0W9fVKIHAJWxdYGwBmxXAjvP/Zy7UXAOpzZ4RIFey8jK0L8EaIJ3AZO1W7YKf2ArAR4nJipWTBzivYOABXwYJdDQKxnTQ9/l5qAqDSrAACV8BxYNcVVxf4aGB3zdSJU79twatg1/vYXbWWADArXvjc+9i6oCZQG6H9V562FEDAGWEk3IZbLoZWdNz2wuh+yBnksvC5D7A2AFeBIYBLiJQzwq4eJNoqFX2Kzs3OLtz9AbYuwBshnMBusBtO7P4TOA40CACqcyWGADIOTBgC0anIoRcEp97XIxN7wDYAN8I2gfxmWIAK9nyIfb4Ab4SaQCMOZH8HxcSeD7HPFyzaW3egx2mA6FdLi0D+U0SUtAnkX76Wib3WDaN5vauQ+pLLor0fYWfJ4EZoCCDzgZYKAH4oi57/aMRZNuEe0/j5Bd1PgMz8/wswQkOgNoK+95CG329UAFB9dUlZ/PyfwXGgQSB2XkGfe0wtAWQcaKkAYAyy+IWGDYTnE2RodxthqJIeN5M5AjgjCFSQ3whk8Qsf12OB3xUTfvoStQd5xAjzGYElgKwLdAdimu9/V7FSsmSf7gDUCz4eegdFzpdyFEBgn3XDvvL+mR7CkSX7rmJHQ7gRRgnkma3Xbng1nhNmCASy5MWrnXtKfQUQ22OaSl6AEToC4R3lahsV5M8C6ivK0hf/Ao4DhgBw9bwigNnDoqwKwqw3Y1uWvqQ7AMwH4EZYE8AYgVNBRqU3Tgs05wcufekTkxVnPtCtul4BRugIVBYQbLno+111RgVDccB5ZfT0wIRyWbZfdwAZBzSB8I4ythsEMIm5LN3/SaMuGFZF+yjZ9HJZtv8aNh+AG+GyA9ewKRleBQeuReoC6xXxuiCNvAAjPHAdu5PKGiEwFC8/cB0cByoCefaQ1s+a2evJ8pevY+MAXAWWAHAjUwEEboBtoFIB5oVEsvzlG9i6YNgIw9RsprnO8eSy/JUb2LFAqyA2FCQ4oqJ1unB4Hf39suKVv6K9oCYQ3nGOdgEEjBECNzAYG8DlIwUY4YqDYC/Aq+DgpyP2EcUP+Um1oGLdsMsIU10hNsi675cVjgBmllCHYmOEOD+UBw5+in3gUasAN0+qlDzwx7oDtSrydalWASYl1AQ+w+YDcCPEEzBGCCzNNAHg0XYlGOGrn7Wmarv3lNZxIbXcumFkKMhSF6x89XNwHPAEGu+s9k5hwDRKvz7agidgjLCOA2GtWxudn5oNo4Y/ZOPW5JYAcCcTXgUrX9NeAEzJKhWg8oGVr32BrQusCnA/UgCBL7AEVr0O7oBWQb4k3Ba7zeuJJQCMA6s0AWR1vOr1L0sywnALZf9tKYAAWgWHvsSeX4BXgSEAnKo1BCKlYZgFu/X8KilMIZfVh74Cx4FDtRfUz5qFe0xt9O5DPppAGIfCvCWBXFYd+gq7aLX6jaYNxEbFcMAO/+7W5XgjtASA+YBxQ9wUkZLVb/wNWxfgVdAkEL6DutE2lVsPcqMCXF2klKx5U3cA6QUNAv1ngB11QU0As2rkVICrjWTNm1/f5kbYIgCwwgJUcPhr7PkFeCN0BOJRYLyp2JmmemXNYe2G3aE4zILDv0shl7WHvwHHgSII4AZDJWsOf4OtC9Ye0TaAQzDaCBOUXq2JwY7STtYe+RbrBXgVHPk2XheEWXH4usQEcimDQMfTdv4Nr7Gn8FLJ8Ua47i3tBcg40HDD8Om6HG1Z99Z32DgAV0GLACIrrgmASjNDAOcEqgAjnPwOe34B3ggnv8emZOsmdSAC1gXrJ7/HvgChJjA8V2a5xJ8hSSEXQwAaB9BGuH5K2wBuI5FVwa2vNwxP/HXtxhnx/bJ+6gdsPlCrALORyBCAvoOiABV0E0iV989UV+CNcMPRv6O94AfsOyjgBDYc1YEIt3AohgByNCxABU0CIxYKw4XDRG2rAuCPbHj7H9jzC/BG6AhgSlOljApiJpBholTJg7oD0DhQFoEeXsdrEoL4634rN4QZ4YPHfsQGIrgR4gnAVXDsxxF1gajBYFDvnhlykvHlUoQKRPyd1J/Ve0oNgf7kowlkGAzkoeP/BMcB7QXuTj3qnG08AbgKTAeGRqtw9OqvXYgKgC+vbxNALNk89M6/sHVBtxHmO0FBPAFYSqY7ACwNlTysOwCcKDQqgFZGFYFwYjBTu22EIzYuu0cs7Gt+G7Pf47bl4RM3b3MjxBOAq+DEzUFX1mvrgeFsOPXvCzDCkzexJzgYI0RO0Txy8t/gOGAI2BBY1wX52gInUEYHuvKBTMtmBajglPYC4JKNsQFkafbIqf9g6wJLoBEKM583LJ4ArC7QHYDWBRt1B9AqgNYFG6e1CoC7aIwRNuKAT7n8OR9+qtZG5sZEpvOWceWycfqn29wI8QTgKpj+ydYFyj5RVeX91WvCXKrWk7wAIzz9M/bJa2OEyCmaTad/BscBT6BhdHZwciuujfOETMBM3BY8AWeEsRExvqfW/o9x5ZaAQ975leGRTuElx5TjVbDpzH+xXlCpAHSumGgCwPkJJZvO6EAETMk8AVhdADfCX539H9gLRrhhhsVzJUUQ0ClZuw7I18YTgKuAHSABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABErjtCfwfPkwAkAY90BgAAAAASUVORK5CYII=&quot;);">
+
+
+<script type="text/javascript" src="threeWebGL.js"></script>
+<script type="text/javascript" src="threeExtras.js"></script>
+
+<script type="text/javascript" src="detector.js"></script>
+<script type="text/javascript" src="requestAnimationFrame.js"></script>
+
+<script id="vs" type="x-shader/x-vertex">
+
+			varying vec2 vUv;
+
+			void main() {
+
+				vUv = uv;
+				gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );
+
+			}
+
+
+</script>
+
+<script id="fs" type="x-shader/x-fragment">
+
+			uniform sampler2D map;
+
+			uniform vec3 fogColor;
+			uniform float fogNear;
+			uniform float fogFar;
+
+			varying vec2 vUv;
+
+			void main() {
+
+				float depth = gl_FragCoord.z / gl_FragCoord.w;
+				float fogFactor = smoothstep( fogNear, fogFar, depth );
+
+				gl_FragColor = texture2D( map, vUv );
+				gl_FragColor.w *= pow( gl_FragCoord.z, 20.0 );
+				gl_FragColor = mix( gl_FragColor, vec4( fogColor, gl_FragColor.w ), fogFactor );
+
+			}
+
+
+</script>
+
+<script type="text/javascript">
+
+    if (!Detector.webgl) Detector.addGetWebGLMessage();
+
+    // Bg gradient
+
+    var canvas = document.createElement('canvas');
+    canvas.width = 32;
+    canvas.height = window.innerHeight;
+
+    var context = canvas.getContext('2d');
+
+    var gradient = context.createLinearGradient(0, 0, 0, canvas.height);
+    gradient.addColorStop(0, "#1e4877");
+    gradient.addColorStop(0.5, "#4584b4");
+
+    context.fillStyle = gradient;
+    context.fillRect(0, 0, canvas.width, canvas.height);
+
+    document.body.style.background = 'url(' + canvas.toDataURL('image/png') + ')';
+
+    // Clouds
+
+    var container;
+    var camera, scene, renderer, sky, mesh, geometry, material,
+        i, h, color, colors = [], sprite, size, x, y, z;
+
+    var mouseX = 0, mouseY = 0;
+    var start_time = new Date().getTime();
+
+    var windowHalfX = window.innerWidth / 2;
+    var windowHalfY = window.innerHeight / 2;
+
+    init();
+    animate();
+
+    function init() {
+
+        container = document.createElement('div');
+        document.body.appendChild(container);
+
+        camera = new THREE.Camera(30, window.innerWidth / window.innerHeight, 1, 3000);
+        camera.position.z = 6000;
+
+        scene = new THREE.Scene();
+
+        geometry = new THREE.Geometry();
+
+        var texture = THREE.ImageUtils.loadTexture('cloud.png');
+        texture.magFilter = THREE.LinearMipMapLinearFilter;
+        texture.minFilter = THREE.LinearMipMapLinearFilter;
+
+        var fog = new THREE.Fog(0x4584b4, -100, 3000);
+
+        material = new THREE.MeshShaderMaterial({
+
+            uniforms: {
+
+                "map": {type: "t", value: 2, texture: texture},
+                "fogColor": {type: "c", value: fog.color},
+                "fogNear": {type: "f", value: fog.near},
+                "fogFar": {type: "f", value: fog.far},
+
+            },
+            vertexShader: document.getElementById('vs').textContent,
+            fragmentShader: document.getElementById('fs').textContent,
+            depthTest: false
+
+        });
+
+        var plane = new THREE.Mesh(new THREE.Plane(64, 64));
+
+        for (i = 0; i < 8000; i++) {
+
+            plane.position.x = Math.random() * 1000 - 500;
+            plane.position.y = -Math.random() * Math.random() * 200 - 15;
+            plane.position.z = i;
+            plane.rotation.z = Math.random() * Math.PI;
+            plane.scale.x = plane.scale.y = Math.random() * Math.random() * 1.5 + 0.5;
+
+            GeometryUtils.merge(geometry, plane);
+
+        }
+
+        mesh = new THREE.Mesh(geometry, material);
+        scene.addObject(mesh);
+
+        mesh = new THREE.Mesh(geometry, material);
+        mesh.position.z = -8000;
+        scene.addObject(mesh);
+
+        renderer = new THREE.WebGLRenderer({antialias: false});
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        container.appendChild(renderer.domElement);
+
+        document.addEventListener('mousemove', onDocumentMouseMove, false);
+        window.addEventListener('resize', onWindowResize, false);
+
+    }
+
+    function onDocumentMouseMove(event) {
+
+        mouseX = (event.clientX - windowHalfX) * 0.25;
+        mouseY = (event.clientY - windowHalfY) * 0.15;
+
+    }
+
+    function onWindowResize(event) {
+
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+
+        renderer.setSize(window.innerWidth, window.innerHeight);
+
+    }
+
+    function animate() {
+
+        requestAnimationFrame(animate);
+        render();
+
+    }
+
+    function render() {
+
+        position = ((new Date().getTime() - start_time) * 0.03) % 8000;
+
+        camera.position.x += (mouseX - camera.target.position.x) * 0.01;
+        camera.position.y += (-mouseY - camera.target.position.y) * 0.01;
+        camera.position.z = -position + 8000;
+
+        camera.target.position.x = camera.position.x;
+        camera.target.position.y = camera.position.y;
+        camera.target.position.z = camera.position.z - 1000;
+
+        renderer.render(scene, camera);
+
+    }
+
+</script>
+<div>
+    <canvas width="1920" height="266"></canvas>
+</div>
+
+
+</body>
+</html>
