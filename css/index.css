@@ -5406,6 +5406,7 @@ blockquote.pullquote.right {
 }
 .site-card {
   margin: 8px;
+  text-decoration: none !important;
   width: calc(100% / 4 - 16px);
   display: block;
   line-height: 1.4;
@@ -5508,7 +5509,7 @@ blockquote.pullquote.right {
   box-shadow: 0 4px 8px 0px rgba(0,0,0,0.1), 0 2px 4px 0px rgba(0,0,0,0.1), 0 4px 8px 0px rgba(0,0,0,0.1), 0 8px 16px 0px rgba(0,0,0,0.1);
 }
 .site-card:hover .info .title {
-  color: #ff5722;
+  color: #49b1f5;
 }
 #article-container .tabs {
   position: relative;

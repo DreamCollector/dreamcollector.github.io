@@ -361,36 +361,36 @@ img {
 
 .menu .previous {
     border-radius: 15px 0 0 15px;
-    background: url(https://i.imgur.com/n2ER0Dd.png) no-repeat center center;
+    background: url("n2ER0Dd.png") no-repeat center center;
 }
 
 .previous span {
-    background: url(https://i.imgur.com/vDIdKpi.png) no-repeat center center;
+    background: url("vDIdKpi.png") no-repeat center center;
 }
 
 .menu .play {
-    background: url(https://i.imgur.com/dU17ZRl.png) no-repeat center center;
+    background: url("dU17ZRl.png") no-repeat center center;
 }
 
 .play span {
-    background: url(https://i.imgur.com/hyUlL2r.png) no-repeat center center;
+    background: url("hyUlL2r.png") no-repeat center center;
 }
 
 .menu .pause {
-    background: url(https://i.imgur.com/D1iTyjp.png) no-repeat center center;
+    background: url("D1iTyjp.png") no-repeat center center;
 }
 
 .pause span {
-    background: url(https://i.imgur.com/dBQOlg1.png) no-repeat center center;
+    background: url("dBQOlg1.png") no-repeat center center;
 }
 
 .menu .next {
     border-radius: 0 15px 15px 0;
-    background: url(https://i.imgur.com/d4yYfGs.png) no-repeat center center;
+    background: url("d4yYfGs.png") no-repeat center center;
 }
 
 .next span {
-    background: url(https://i.imgur.com/JyDNjL9.png) no-repeat center center;
+    background: url("JyDNjL9.png") no-repeat center center;
 }
 
 .menu .share,
@@ -411,18 +411,18 @@ img {
 
 .menu .like {
     float: right;
-    background: #171717 url(https://i.imgur.com/APpk31d.png) no-repeat center center;
+    background: #171717 url("APpk31d.png") no-repeat center center;
 }
 
 .like span {
-    background: url(https://i.imgur.com/BUoeur6.png) no-repeat center center;
+    background: url("BUoeur6.png") no-repeat center center;
 }
 
 .menu .share {
     float: left;
-    background: #171717 url(https://i.imgur.com/aGosymG.png) no-repeat center center;
+    background: #171717 url("aGosymG.png") no-repeat center center;
 }
 
 .share span {
-    background: url(https://i.imgur.com/sVrgiY0.png) no-repeat center center;
+    background: url("sVrgiY0.png") no-repeat center center;
 }
