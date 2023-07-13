@@ -6229,13 +6229,6 @@ blockquote.pullquote.right {
         padding: 1rem;
     }
 
-    .layout > div:first-child:not(.recent-posts) {
-        /* border-radius: 0; */
-        padding: 0 1rem !important;
-        box-shadow: none !important;
-        background: var(--card-bg);
-    }
-
     .reward-list-item {
         width: 100% !important;
     }
