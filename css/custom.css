@@ -533,6 +533,81 @@ li.card-archive-list-item {
     background: #49b1f5 !important;
 }
 
+/* --------------------分类标签bar样式-------------------- */
+#tag-bar,
+#category-bar {
+    padding: .4rem .8rem;
+    border-radius: 8px;
+    display: flex;
+    background-color: #e8f5fd;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+}
+
+#tag-bar i,
+#category-bar i {
+    line-height: inherit;
+}
+
+#tag-bar-list,
+#category-bar-list {
+    /* 分类/标签较少时，可以选择不设置 width，居中显示 catalog-list-item */
+    width: 100%;
+    margin: 0 .5rem;
+    display: flex;
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+
+#tag-bar-list::-webkit-scrollbar,
+#category-bar-list::-webkit-scrollbar {
+    display: none;
+}
+
+.tag-bar-item a,
+.category-bar-item a {
+    margin: 0 .2em;
+    padding: 0.2em 0.3em 0.3em;
+    font-weight: bold;
+    border-radius: 8px;
+    color: var(--font-color);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.tag-bar-item:hover a,
+.category-bar-item:hover a {
+    background: #fff;
+    color: var(--font-color);
+}
+
+.tag-bar-item.selected a,
+.category-bar-item.selected a {
+    background: #fff;
+    color: var(--font-color);
+}
+
+a.tag-more,
+a.category-more {
+    min-width: fit-content;
+    font-weight: bold;
+    color: var(--font-color);
+}
+
+a.tag-more:hover,
+a.category-more:hover {
+    color: #49B1F5;
+}
+
+
+.tag-bar-item a sup,
+.category-bar-item a sup {
+    opacity: 0.6;
+    margin-left: 2px;
+}
 
 
 
