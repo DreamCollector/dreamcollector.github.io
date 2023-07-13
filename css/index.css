@@ -5461,8 +5461,8 @@ blockquote.pullquote.right {
   pointer-events: none;
   border-radius: 16px;
   float: left;
-  margin-right: 8px;
-  margin-top: 2px;
+  margin-right: 8px !important;
+  margin-top: 2px !important;
 }
 .site-card .info span {
   display: block;
