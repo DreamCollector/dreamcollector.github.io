@@ -6175,7 +6175,7 @@ blockquote.pullquote.right {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-    margin-top: 1rem;
+    margin-top: 20px;
 }
 
 .author-content-item {
@@ -6223,15 +6223,21 @@ blockquote.pullquote.right {
 
 
 @media screen and (max-width: 768px) {
+    .author-content > .author-content-item.skills,
+    .author-content > .author-content-item.aboutsiteTips {
+        margin-top: 20px;
+    }
+
     .author-content-item {
         width: 100% !important;
-        margin-top: 1rem;
-        padding: 1rem;
+        padding: 20px 24px;
     }
 
     .reward-list-item {
         width: 100% !important;
     }
+
+
 }
 
 
