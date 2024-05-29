@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.pzai.cloud/link/index.html</loc>
+    <loc>https://blog.pzai.cloud/log/index.html</loc>
     
-    <lastmod>2024-05-15</lastmod>
+    <lastmod>2024-05-29</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.pzai.cloud/log/index.html</loc>
+    <loc>https://blog.pzai.cloud/link/index.html</loc>
     
-    <lastmod>2024-05-09</lastmod>
+    <lastmod>2024-05-15</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://blog.pzai.cloud/posts/79cb2f42/</loc>
+    <loc>https://blog.pzai.cloud/posts/cbc15314/</loc>
     
     <lastmod>2024-02-05</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://blog.pzai.cloud/posts/cbc15314/</loc>
+    <loc>https://blog.pzai.cloud/posts/79cb2f42/</loc>
     
     <lastmod>2024-02-05</lastmod>
     
@@ -392,14 +392,14 @@
   </url>
   
   <url>
-    <loc>https://blog.pzai.cloud/tags/Springboot/</loc>
+    <loc>https://blog.pzai.cloud/tags/Selenium/</loc>
     <lastmod>2024-05-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.pzai.cloud/tags/Selenium/</loc>
+    <loc>https://blog.pzai.cloud/tags/Springboot/</loc>
     <lastmod>2024-05-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
