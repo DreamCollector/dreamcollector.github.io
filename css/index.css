@@ -20333,9 +20333,6 @@ a
   box-shadow: var(--anzhiyu-shadow-border);
   color: var(--anzhiyu-fontcolor);
 }
-#body-wrap.page .tk-admin-config .el-input__inner {
-  color: currentColor;
-}
 #twikoo.twikoo .el-input__inner:focus,
 #twikoo.twikoo .el-textarea__inner:focus {
   border-color: var(--anzhiyu-main);
