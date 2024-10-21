@@ -21463,7 +21463,7 @@ html.hide-aside .layout > div:first-child {
   border: var(--anzhiyu-border-radius);
   margin-bottom: 1rem;
   justify-content: flex-start;
-  align-items: center;
+  align-items: baseline;
 }
 
 #catalog-bar:hover {
@@ -21550,7 +21550,6 @@ a.catalog-more:hover {
 #category-bar #catalog-bar {
   margin-bottom: 0;
   overflow-y: hidden;
-  margin: -0.2rem 0;
 }
 
 #category-bar.category-bar:hover {
