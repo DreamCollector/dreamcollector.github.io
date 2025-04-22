@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.pzai.cloud/posts/b6f5643d/</loc>
+    <lastmod>2025-04-22</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.pzai.cloud/posts/9a92f6ae/</loc>
+    <lastmod>2025-04-01</lastmod>
+  </url>
+  <url>
     <loc>https://blog.pzai.cloud/posts/81957653/</loc>
     <lastmod>2025-04-01</lastmod>
   </url>
   <url>
     <loc>https://blog.pzai.cloud/posts/c035226/</loc>
-    <lastmod>2025-04-01</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.pzai.cloud/posts/9a92f6ae/</loc>
     <lastmod>2025-04-01</lastmod>
   </url>
   <url>
@@ -35,10 +39,6 @@
   <url>
     <loc>https://blog.pzai.cloud/posts/28453f16/</loc>
     <lastmod>2024-12-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.pzai.cloud/posts/b6f5643d/</loc>
-    <lastmod>2024-11-27</lastmod>
   </url>
   <url>
     <loc>https://blog.pzai.cloud/posts/657e9de6/</loc>
