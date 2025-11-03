@@ -125,7 +125,8 @@ function fetchRandomPost() {
                         .then(function (o) {
                             return o.json();
                         })
-                        .then(function (o) {
+                        .then(function (array) {
+                            var o = array[0]; // 获取数组中的第一个对象
                             var t = o.title,
                                 a = o.link,
                                 n = o.author;

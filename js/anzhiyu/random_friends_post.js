@@ -153,7 +153,8 @@ function fetchRandomPost() {
       var fetchUrl = fdata.apiurl + "randompost";
       fetch(fetchUrl)
         .then(res => res.json())
-        .then(json => {
+        .then(array => {
+          var json = array[0]; // 获取数组中的第一个对象
           var title = json.title;
           var link = json.link;
           var author = json.author;

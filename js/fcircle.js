@@ -16768,7 +16768,7 @@ var __defProp = Object.defineProperty
                 var t, n;
                 const a = await function(e="created") {
                     return iz.get({
-                        url: "all?rule=" + e
+                        url: "all?rule=" + e + "&start=0&end=100"
                     })
                 }(e);
                 this.currentArcitleNum = (null == (t = null == a ? void 0 : a.statistical_data) ? void 0 : t.article_num) > ez ? ez : null == (n = null == a ? void 0 : a.statistical_data) ? void 0 : n.article_num,
