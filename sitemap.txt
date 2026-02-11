@@ -1,3 +1,4 @@
+https://blog.pzai.cloud/posts/187b1225/
 https://blog.pzai.cloud/posts/b6f5643d/
 https://blog.pzai.cloud/log/index.html
 https://blog.pzai.cloud/posts/81957653/
@@ -69,3 +70,4 @@ https://blog.pzai.cloud/categories/%E5%BC%80%E5%8F%91%E6%80%BB%E7%BB%93/
 https://blog.pzai.cloud/categories/%E7%88%AC%E8%99%AB/
 https://blog.pzai.cloud/categories/hexo/
 https://blog.pzai.cloud/categories/uni-app/
+https://blog.pzai.cloud/categories/%E9%87%8F%E5%8C%96/
