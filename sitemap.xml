@@ -497,14 +497,14 @@
 
   
   <url>
-    <loc>https://blog.pzai.cloud/tags/Datatable/</loc>
+    <loc>https://blog.pzai.cloud/tags/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.pzai.cloud/tags/%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://blog.pzai.cloud/tags/Datatable/</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -539,7 +539,7 @@
   </url>
   
   <url>
-    <loc>https://blog.pzai.cloud/tags/uni-app/</loc>
+    <loc>https://blog.pzai.cloud/tags/javascript/</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -553,7 +553,7 @@
   </url>
   
   <url>
-    <loc>https://blog.pzai.cloud/tags/javascript/</loc>
+    <loc>https://blog.pzai.cloud/tags/uni-app/</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -576,14 +576,14 @@
   </url>
   
   <url>
-    <loc>https://blog.pzai.cloud/categories/Java/</loc>
+    <loc>https://blog.pzai.cloud/categories/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.pzai.cloud/categories/%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://blog.pzai.cloud/categories/Java/</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
