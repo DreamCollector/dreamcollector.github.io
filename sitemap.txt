@@ -1,8 +1,8 @@
+https://blog.pzai.cloud/log/index.html
 https://blog.pzai.cloud/posts/a6d8a2bd/
 https://blog.pzai.cloud/posts/8a0aa1f7/
 https://blog.pzai.cloud/posts/187b1225/
 https://blog.pzai.cloud/posts/b6f5643d/
-https://blog.pzai.cloud/log/index.html
 https://blog.pzai.cloud/posts/81957653/
 https://blog.pzai.cloud/posts/9a64173f/
 https://blog.pzai.cloud/posts/9a92f6ae/
@@ -62,8 +62,8 @@ https://blog.pzai.cloud/tags/Springboot/
 https://blog.pzai.cloud/tags/hexo/
 https://blog.pzai.cloud/tags/Log4j2/
 https://blog.pzai.cloud/tags/uni-app/
-https://blog.pzai.cloud/tags/javascript/
 https://blog.pzai.cloud/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/
+https://blog.pzai.cloud/tags/javascript/
 https://blog.pzai.cloud/categories/%E6%95%99%E7%A8%8B/
 https://blog.pzai.cloud/categories/%E7%AE%97%E6%B3%95/
 https://blog.pzai.cloud/categories/Java/
